@@ -1,0 +1,14 @@
+ body {  
+ background: url(dpdesktop.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 720px;
+ min-height: 100%
+ }
+
+@media only screen and (max-width: 767px) {
+  body { 
+  background-image: url('dpmobile.png');
+  }
+	}
