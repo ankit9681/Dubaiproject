@@ -1,0 +1,44 @@
+
+<!-- Tutorial URL: http://sixrevisions.com/css/responsive-background-image/ -->
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+<style type="text/css">
+ body {  
+ background: url(dpdesktop.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 720px;
+ min-height: 100%
+ }
+
+@media only screen and (max-width: 767px) {
+  body { 
+  background-image: url('dpmobile.png');
+  }
+	}
+</style>
+ 
+
+
+
+</head>
+<body>
+  <header class="container">
+    <section class="content">
+      <h1></h1>
+
+    </section>
+  </header>
+  <script>!function(e,t,a){var c=e.head||e.getElementsByTagName("head")[0],n=e.createElement("script");n.async=!0,n.defer=!0, n.type="text/javascript",n.src=t+"/static/js/chat_widget.js?config="+JSON.stringify(a),c.appendChild(n)}(document,"https://chat2ai.cbots.live",{bot_key:"b1072581ba0f4c38",bot_name_image:"https://s3-ap-south-1.amazonaws.com:443/bot-bkt/prod/34590/34590-DP-logo.png",welcome_msg:true,branding_key:"chat2ai",server:"https://chat2ai.cbots.live",e:"p" });</script>
+
+</body>
+</html>
